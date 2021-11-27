@@ -1,0 +1,118 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+body {
+    background-color: rgba(229, 255, 0, 0.479);
+    background-image: url(assets/backgr.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    font-size: 2.4vh;  
+    font-family: 'Roboto', sans-serif;
+}
+.head, .content {
+    text-align: center;
+    border: 0.5vh solid rgba(34, 133, 72, 0.8);
+  }
+
+.head {
+    position: absolute;
+    max-width: 55vh;
+    left: 5%;
+    top: 5%;
+    margin: 2vh;
+    line-height: 3.5vh;
+  }
+
+.content {
+    position: absolute;
+    max-width: 55vh;
+    left: 65%;
+    top: 5%;
+    margin: 2vh;
+    padding: 2vh;
+ }
+
+
+.profile-img {
+    max-width: 90%;
+    margin-top: 2vh;
+    border-radius: 10%;
+    filter: grayscale(30%);
+  }
+
+.profile-img:hover{   
+    transform: scale(1.1);
+    transition: all 0.8s  ease-in-out;
+    filter: grayscale(5%);
+}
+
+.second-img {
+  max-width: 90%;
+  margin-top: 2vh;
+  border-radius: 10%;
+  filter: grayscale(30%);   
+}
+
+.second-img:hover{   
+  transform: scale(1.2);
+  transition: all 0.8s  ease-in-out;
+  filter: grayscale(5%);
+}
+
+
+ul {
+    list-style-type: none;
+  }
+  
+li {
+    display: inline;
+  }
+
+.head, .content {
+    background-color: rgba(184, 80, 80, 0.76);
+    border-radius: 10%;
+    box-shadow: rgba(143, 34, 34, 0.8) 20px 20px 80px;
+  }
+
+.contact{
+    border-top: 0.5vh solid rgba(34, 133, 72, 0.8);
+  }
+
+.about{
+    border-bottom: 0.5vh solid rgba(34, 133, 72, 0.8);
+    line-height: 2.9vh;
+  }
+
+a{
+    color: rgba(34, 133, 72, 0.8);
+  }
+
+.facebook:hover{
+    color: blue;
+  }
+
+.instagram:hover{
+    color: red;
+  }
+
+.email:hover{
+    color: skyblue;
+  }
+
+h1{
+  font-size: 4vh;
+  font-weight: 1000;
+  color: rgba(34, 133, 72, 0.8);
+}
+
+h2{
+  font-weight: 300;
+}
+
+
+    
