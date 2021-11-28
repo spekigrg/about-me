@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 100%;
   }
 body {
     background-color: rgb(255, 255, 255);
@@ -11,7 +10,6 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center ;
-    font-size: 2.4vh;  
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
@@ -31,7 +29,7 @@ body {
     text-align: center;
     max-width: 100%;
     margin: 0 auto;
-    border: 4px solid rgba(34, 133, 72, 0.8);
+    border: 4px solid rgba(17, 184, 81, 0.8);
   }
 
 .head {
@@ -91,16 +89,18 @@ li {
   }
 
 .contact{
-    border-top: 5px solid rgba(34, 133, 72, 0.8);
+    border-top: 5px solid rgba(17, 184, 81, 0.8);
   }
 
 .about{
-    border-bottom: 5px solid rgba(34, 133, 72, 0.8);
-    line-height: 23px;
+    border-bottom: 5px solid rgba(17, 184, 81, 0.8);
+    line-height: 2vw;
+    font-size: 1vw;
+    font-weight: 600;
   }
 
 a{
-    color: rgba(34, 133, 72, 0.8);
+    color: rgba(17, 184, 81, 0.8);
   }
 
 .facebook:hover{
@@ -116,13 +116,14 @@ a{
   }
 
 h1{
-  font-size: 4vh;
-  font-weight: 1000;
-  color: rgba(34, 133, 72, 0.8);
+  font-size: 2vw;
+  font-weight: 1200;
+  color: rgba(17, 184, 81, 0.8);
 }
 
 h2{
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 1vw;
 }
 
 
