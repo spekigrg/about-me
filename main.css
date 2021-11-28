@@ -20,27 +20,24 @@ body {
   }
 
 .head {
-    position: absolute;
-    max-width: 55vh;
-    left: 5%;
-    top: 5%;
-    margin: 2vh;
+    max-width: 25%;
+    float: left;
+    margin: 5vh 23vh 5vh 20vh;
     line-height: 3.5vh;
+    padding: 2vh;
   }
 
 .content {
-    position: absolute;
-    max-width: 55vh;
-    left: 65%;
-    top: 5%;
-    margin: 2vh;
+    max-width: 35%;
+    float: left;
     padding: 2vh;
+    margin: 5vh 5vh 5vh 20vh;
  }
 
 
 .profile-img {
-    max-width: 90%;
-    margin-top: 2vh;
+    max-width: 100%;
+    height: auto;
     border-radius: 10%;
     filter: grayscale(30%);
   }
@@ -52,8 +49,9 @@ body {
 }
 
 .second-img {
-  max-width: 90%;
-  margin-top: 2vh;
+  max-width: 100%;
+  height: auto;
+  padding-top: 2vh;
   border-radius: 10%;
   filter: grayscale(30%);   
 }
