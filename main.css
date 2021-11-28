@@ -16,22 +16,22 @@ body {
 }
 .head, .content {
     text-align: center;
-    border: 0.5vh solid rgba(34, 133, 72, 0.8);
+    border: 4px solid rgba(34, 133, 72, 0.8);
   }
 
 .head {
     max-width: 25%;
     float: left;
-    margin: 5vh 23vh 5vh 20vh;
-    line-height: 3.5vh;
-    padding: 2vh;
+    margin: 23px 330px 5px 100px;
+    line-height: 26px;
+    padding: 15px;
   }
 
 .content {
     max-width: 35%;
     float: left;
-    padding: 2vh;
-    margin: 5vh 5vh 5vh 20vh;
+    padding: 15px;
+    margin: 23px 23px 5px 100px;
  }
 
 
@@ -51,7 +51,7 @@ body {
 .second-img {
   max-width: 100%;
   height: auto;
-  padding-top: 2vh;
+  padding-top: 10px;
   border-radius: 10%;
   filter: grayscale(30%);   
 }
@@ -78,12 +78,12 @@ li {
   }
 
 .contact{
-    border-top: 0.5vh solid rgba(34, 133, 72, 0.8);
+    border-top: 5px solid rgba(34, 133, 72, 0.8);
   }
 
 .about{
-    border-bottom: 0.5vh solid rgba(34, 133, 72, 0.8);
-    line-height: 2.9vh;
+    border-bottom: 5px solid rgba(34, 133, 72, 0.8);
+    line-height: 23px;
   }
 
 a{
@@ -103,7 +103,7 @@ a{
   }
 
 h1{
-  font-size: 4vh;
+  font-size: 4.5vh;
   font-weight: 1000;
   color: rgba(34, 133, 72, 0.8);
 }
