@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 100%;
   }
 body {
     background-color: rgb(204, 49, 49);
@@ -10,43 +11,48 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center ;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  
 }
 
-
-.head, .content {
+.card{
+  width: 1400px;
+  max-width: calc(100vw - 30px);
+  margin: 35px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header, .content {
     text-align: center;
     margin: 0 auto;
-    border: 0.3vw solid rgba(17, 184, 81, 0.8);
+    border: 3px solid rgba(17, 184, 81, 0.8);
+    background-color: rgba(184, 80, 80, 0.76);
+    border-radius: 20px;
+    box-shadow: rgba(143, 34, 34, 0.8) 20px 20px 80px;
   }
 
-.head {
-    max-width: 27%;
+.header {
+    width: 30%;
     height: auto;
     float: left;
-    line-height: 2vw;
-    padding: 1vw;
-    
+    line-height: 1.5em;
+    padding: 13px; 
   }
 
 .content {
-    max-width: 40%;
+    width: 40%;
     height: auto;
     float: left;
-    padding: 1vw;
+    line-height: 1.5em;
+    padding: 17px;
    
  }
 
-
 .profile-img {
-    max-width: 80%;
+    width: 90%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 20px;
     filter: grayscale(30%);
   }
 
@@ -57,10 +63,10 @@ body {
 }
 
 .second-img {
-  max-width: 80%;
+  width: 100%;
   height: auto;
-  padding-top: 1vw;
-  border-radius: 10%;
+  padding-top: 8px;
+  border-radius: 20px;
   filter: grayscale(30%);   
 }
 
@@ -70,29 +76,22 @@ body {
   filter: grayscale(5%);
 }
 
-
 ul {
     list-style-type: none;
+    font-size: 25px;
   }
   
 li {
     display: inline;
   }
 
-.head, .content {
-    background-color: rgba(184, 80, 80, 0.76);
-    border-radius: 10%;
-    box-shadow: rgba(143, 34, 34, 0.8) 20px 20px 80px;
-  }
-
 .contact{
-    border-top: 0.3vw solid rgba(17, 184, 81, 0.8);
+    border-top: 3px solid rgba(17, 184, 81, 0.8);
   }
 
 .about{
-    border-bottom: 0.3vw solid rgba(17, 184, 81, 0.8);
-    line-height: 2vw;
-    font-size: 1vw;
+    border-bottom: 3px solid rgba(17, 184, 81, 0.8);
+    font-size: 15px;
     font-weight: 600;
   }
 
@@ -113,14 +112,14 @@ a{
   }
 
 h1{
-  font-size: 2vw;
+  font-size: 25px;
   font-weight: 1200;
   color: rgba(17, 184, 81, 0.8);
 }
 
 h2{
   font-weight: 600;
-  font-size: 1vw;
+  font-size: 15px;
 }
 
 
