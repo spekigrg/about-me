@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-size: 100%;
   }
+
 body {
     background-color: rgb(204, 49, 49);
     background-image: url(assets/backgr2.jpg);
@@ -122,5 +123,32 @@ h2{
   font-size: 15px;
 }
 
+/* Create four equal columns that floats next to each other */
+.header, .content {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .header, .content {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .header, .content {
+    width: 100%;
+  }
+}
 
     
