@@ -6,6 +6,8 @@
     font-size: 100%;
   }
 
+  
+
 body {
     background-color: rgb(204, 49, 49);
     background-image: url(assets/backgr2.jpg);
@@ -17,41 +19,36 @@ body {
 }
 
 .card{
-  width: 1400px;
+  width: 85%;
   max-width: calc(100vw - 30px);
-  margin: 35px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 10px auto;
+  background-color: aqua;
 }
 .header, .content {
     text-align: center;
-    margin: 0 auto;
     border: 3px solid rgba(17, 184, 81, 0.8);
     background-color: rgba(184, 80, 80, 0.76);
     border-radius: 20px;
     box-shadow: rgba(143, 34, 34, 0.8) 20px 20px 80px;
-  }
+    height: auto;
+    line-height: 1.5em;
+   }
+
 
 .header {
-    width: 30%;
-    height: auto;
-    float: left;
-    line-height: 1.5em;
+    width: 40%;
     padding: 13px; 
+    float: left;
   }
 
 .content {
     width: 40%;
-    height: auto;
-    float: left;
-    line-height: 1.5em;
     padding: 17px;
-   
+    float: right;
  }
 
 .profile-img {
-    width: 90%;
+    width: 50%;
     height: auto;
     border-radius: 20px;
     filter: grayscale(30%);
@@ -123,24 +120,10 @@ h2{
   font-size: 15px;
 }
 
-/* Create four equal columns that floats next to each other */
-.header, .content {
-  float: left;
-  width: 30%;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.card:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
   .header, .content {
-    width: 50%;
+    width: 49%;
   }
 }
 
@@ -150,5 +133,6 @@ h2{
     width: 100%;
   }
 }
+
 
     
