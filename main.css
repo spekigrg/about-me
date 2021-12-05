@@ -21,8 +21,7 @@ body {
 .card{
   width: 85%;
   max-width: calc(100vw - 30px);
-  margin: 10px auto;
-  background-color: aqua;
+  margin: 30px auto;
 }
 .header, .content {
     text-align: center;
@@ -45,12 +44,13 @@ body {
     width: 40%;
     padding: 17px;
     float: right;
+    margin-bottom: 30px;
  }
 
 .profile-img {
     width: 50%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 40px;
     filter: grayscale(30%);
   }
 
@@ -64,7 +64,7 @@ body {
   width: 100%;
   height: auto;
   padding-top: 8px;
-  border-radius: 20px;
+  border-radius: 40px;
   filter: grayscale(30%);   
 }
 
@@ -120,14 +120,12 @@ h2{
   font-size: 15px;
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
   .header, .content {
     width: 49%;
   }
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .header, .content {
     width: 100%;
