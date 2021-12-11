@@ -21,36 +21,43 @@ body {
 .card{
   width: 85%;
   max-width: calc(100vw - 30px);
-  margin: 30px auto;
+  margin: 2rem auto;
 }
 .header, .content {
     text-align: center;
-    border: 3px solid rgba(17, 184, 81, 0.8);
+    border: 0.2rem solid rgba(17, 184, 81, 0.8);
     background-color: rgba(184, 80, 80, 0.76);
-    border-radius: 20px;
+    border-radius: 1rem;
     box-shadow: rgba(143, 34, 34, 0.8) 20px 20px 80px;
     height: auto;
-    line-height: 1.5em;
+    line-height: 1.5rem;
    }
 
 
 .header {
     width: 40%;
-    padding: 13px; 
+    padding: 1rem; 
     float: left;
   }
 
 .content {
-    width: 40%;
-    padding: 17px;
+    width: 50%;
+    padding: 1rem;
     float: right;
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
+ }
+
+ video {
+   width: 100%;
+   height: auto;
+   border-radius: 2rem;
+   padding: 0.6rem;
  }
 
 .profile-img {
     width: 50%;
     height: auto;
-    border-radius: 40px;
+    border-radius: 2rem;
     filter: grayscale(30%);
   }
 
@@ -60,23 +67,9 @@ body {
     filter: grayscale(5%);
 }
 
-.second-img {
-  width: 100%;
-  height: auto;
-  padding-top: 8px;
-  border-radius: 40px;
-  filter: grayscale(30%);   
-}
-
-.second-img:hover{   
-  transform: scale(1.2);
-  transition: all 0.8s  ease-in-out;
-  filter: grayscale(5%);
-}
-
 ul {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 2rem;
   }
   
 li {
@@ -84,12 +77,12 @@ li {
   }
 
 .contact{
-    border-top: 3px solid rgba(17, 184, 81, 0.8);
+    border-top: 0.2rem solid rgba(17, 184, 81, 0.8);
   }
 
 .about{
-    border-bottom: 3px solid rgba(17, 184, 81, 0.8);
-    font-size: 15px;
+    border-bottom: 0.2rem solid rgba(17, 184, 81, 0.8);
+    font-size: 0.9rem;
     font-weight: 600;
   }
 
@@ -110,15 +103,16 @@ a{
   }
 
 h1{
-  font-size: 25px;
+  font-size: 2rem;
   font-weight: 1200;
   color: rgba(17, 184, 81, 0.8);
 }
 
 h2{
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1rem;
 }
+
 
 @media screen and (max-width: 992px) {
   .header, .content {
